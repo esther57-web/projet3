@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    border-radius: 10px;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+.description {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    display: grid;
+}
+
+button {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+.dprice {
+    font-weight: 800;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces;
+}
+
+.nprice {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
